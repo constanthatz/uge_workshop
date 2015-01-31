@@ -1,0 +1,117 @@
+Unix
+    1973 - Bell labs
+        Three main families
+            BSD
+            Linux
+            Other
+
+    Two most popular cores
+        Linux (android)
+        Darwin (macos, ios)
+
+    Kernel - software that manages hardware
+        software > cpu, memory,
+
+    Shell
+        User interface with kernel
+            Original - CLI, command line interpreter
+            Modern - GUI, Multi Touch,
+        Turtle
+            Protects/moderate hardware use by user and programs
+
+console
+  pwd - present working directory
+  /XXXX/XXXX - absolute path
+  XXXX/XXXX - relative path
+  cd - change directory
+    cd alone will go to home directory
+  / - root
+    topmost container in the system
+
+  flags - modify commands
+
+  ls - list elements in a directory
+    -t time modified sort
+    -l long format
+    -m stream output as comma seperated list
+    -R recursive list
+    ls /XXXX/XXXX/ list files in a particular directory
+
+  ll = ls -lth
+  la = ls -alh
+
+  the command line expects a continuous string of characters
+    spaces are interpreted as seperating to commands, etc
+    \ - escape character
+      use before a space to trest space as a character
+
+  naming
+    don't use spaces
+    OSX case sensitive in terminal
+    OSX case insensitive otherwise
+    lower case names with no spaces
+
+  cd = cd ~
+  cd .. - go up one directory
+    ../../ can be stacked to go further back in the directory tree
+    ../XXXX/ go back one directory and then forward to another one
+  . - current directory
+
+  subl . - open sublime in current directory
+  man command - command manual
+    man command-subcommand - subcommand manual
+
+  history - shows a list of commands, most recent first
+
+  | - pipe redirect stdout to stdin
+  less - read contents of a file
+  cat - read contents of a file all at once and immediately go back to console
+    can concantate multiple files
+  > - stdout dumped into a file with overwrite
+  >> - stdout dumped into a file with append
+
+  mkdir - make directory
+  mv - move
+    rename
+
+  touch - make file exist
+
+git
+  repository
+  distributed
+  git
+    init - initialize git repository
+    status - repository status
+      st - short version, alias
+    add - track file and add to staging area
+    commit - commit change to repository
+      ci - shortcut, alias
+        id - unique to a commit
+        message
+        timestamp
+        diff
+        author
+    log - see list of commits
+      ll - long form, alias
+      la - all form (every change), alias
+    blame - show what revision and author last modified each line of a file
+    branch - list branches
+      branch NAME - create NAME branch
+    checkout BRANCH - switch to BRANCH branch
+      co - shortcut, alias
+    merge - merge two branches
+    remote - list associated remote repositories
+
+    github
+      commments
+        has tools for collaboration
+      issues
+        issue numbers are parsed by github in comments, etc.
+        use Close #XXX to tell github to automatically close issue
+
+    labels - associated with commits
+      HEAD - points to the most recent commit
+      master - first branch
+      branchX - another branch
+
+
