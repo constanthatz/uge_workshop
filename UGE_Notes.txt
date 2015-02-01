@@ -105,6 +105,8 @@ git
     rebase - if you want to merge your branch to the master branch after the master branch has been changed due to another branch merge
       git push -f - needs to follow rebase to sync remote with your rebase change
       git pull master - due this before you rebase or try to merge
+    pull - pull changes from remote
+    push - push changes to remote
 
     github
       commments
