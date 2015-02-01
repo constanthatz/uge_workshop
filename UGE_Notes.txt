@@ -96,6 +96,7 @@ git
       la - all form (every change), alias
     blame - show what revision and author last modified each line of a file
     branch - list branches
+      br - shortcut, alias
       branch NAME - create NAME branch
     checkout BRANCH - switch to BRANCH branch
       co - shortcut, alias
