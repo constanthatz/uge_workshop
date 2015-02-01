@@ -101,6 +101,9 @@ git
       co - shortcut, alias
     merge - merge two branches
     remote - list associated remote repositories
+    rebase - if you want to merge your branch to the master branch after the master branch has been changed due to another branch merge
+      git push -f - needs to follow rebase to sync remote with your rebase change
+      git pull master - due this before you rebase or try to merge
 
     github
       commments
@@ -129,6 +132,9 @@ git
       git add FILE
       git commit -m ""
       git push
+      ...
+      git pull
+      ...
 
 
 
