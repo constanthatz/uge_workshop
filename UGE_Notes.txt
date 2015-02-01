@@ -114,6 +114,21 @@ git
       master - first branch
       branchX - another branch
 
-      testing
+    workflow
+      git init
+      create files
+      git add FILE
+      git commit -m ""
+      git branch BRANCH
+      git checkout master
+      git remote add
+      git push -u origin master
+      git push -u origin BRANCH
+      git checkout BRANCH
+      chagne files
+      git add FILE
+      git commit -m ""
+      git push
+
 
 
